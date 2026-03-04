@@ -1,0 +1,90 @@
+.explore-menu {
+  display: flex;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(60,47,100,.15);
+  border: 1px solid #e6e9ee;
+  padding: 0;
+  width: 740px;
+  min-height: 550px;
+  margin-top: 18px;
+  position: absolute;
+  left: 20px;
+  z-index: 200;
+}
+
+.explore-sidebar {
+  min-width: 230px;
+  max-width: 250px;
+  border-right: 1.5px solid #ececec;
+  background: #fafbfe;
+  padding: 16px 0 10px 16px;
+}
+
+.explore-section {
+  margin-bottom: 18px;
+}
+
+.explore-section h4 {
+  font-size: 1.09rem;
+  font-weight: 700;
+  color: #31334d;
+  margin-bottom: 12px;
+}
+
+.explore-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.explore-section li {
+  font-size: 1.05rem;
+  color: #452ca4;
+  background: transparent;
+  padding: 9px 12px 7px 7px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.13s, color 0.13s;
+  outline: none;
+}
+
+.explore-section li:hover, .explore-section li:focus {
+  background: #f4edff;
+  color: #511abc;
+}
+
+.explore-mega {
+  flex: 1;
+  padding: 18px 22px;
+  background: #fff;
+  overflow: auto;
+}
+
+.explore-mega h4 {
+  color: #31334d;
+  font-size: 1.13rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.explore-mega ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.explore-mega li {
+  padding: 7px 0 7px 7px;
+  font-size: 1.02rem;
+  color: #31334d;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.13s, color 0.13s;
+  outline: none;
+}
+
+.explore-mega li:hover, .explore-mega li:focus {
+  background: #f4edff;
+  color: #511abc;
+}

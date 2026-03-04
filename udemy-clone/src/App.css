@@ -1,0 +1,34 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #232323;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar__logo a { font-size: 2rem; font-weight: bold; color: #222; text-decoration: none; }
+.navbar__search input { width: 300px; padding: 8px; border: 1px solid #e5e5e5; border-radius: 4px; }
+.navbar__menu a, .navbar__btn { margin-left: 32px; color: #4b276a; text-decoration: none; padding: 8px 20px; border-radius: 24px; }
+.navbar__btn--purple { background: #6200ea; color: #fff; border: none; }
+.banner { display: flex; align-items: center; justify-content: space-between; background: #5b23d3; color: #fff; padding: 48px; border-radius: 12px; }
+.banner__box h1 { font-size: 2.6rem; font-weight: bold; margin-bottom: 12px; }
+.btn { padding: 10px 24px; border-radius: 24px; cursor: pointer; margin: 8px 0 0 8px; }
+.btn--purple { background: #6200ea; color: #fff; }
+.btn--outline { background: transparent; color: #6200ea; border: 2px solid #6200ea; }
+.carousel__tabs { display: flex; gap: 20px; margin: 32px 0; }
+.carousel__tab { background: #ffc700; border: none; border-radius: 24px; padding: 10px 24px; font-weight: 500; color: #232323; cursor: pointer; }
+.courses__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; margin: 24px 0; }
+.course-card { background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-radius: 12px; padding: 16px; text-align: left; }
+.course-meta { display: flex; justify-content: space-between; font-weight: 500; margin-top: 8px; }
+.pricing__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin: 40px 0; }
+.pricing__card { background: #f5f5fa; border-radius: 18px; padding: 32px; box-shadow: 0 2px 8px rgba(98,0,234,0.02); }
+.footer { background: #18122b; color: #fff; padding: 32px;}
+.footer__links { display: flex; gap: 48px;}
+.footer__links h4 { margin-bottom: 10px; }

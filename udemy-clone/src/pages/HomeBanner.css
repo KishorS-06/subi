@@ -1,0 +1,48 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5624d0;
+  color: #fff;
+  padding: 48px 56px;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(86, 36, 208, 0.05);
+  margin: 40px 0 26px 0;
+}
+
+.banner__box h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.banner__box p {
+  font-size: 1.25rem;
+  margin-bottom: 22px;
+}
+
+.banner__box .btn {
+  margin-right: 16px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 24px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: box-shadow 0.15s;
+  border: none;
+}
+
+.btn--purple {
+  background: #5624d0;
+  color: #fff;
+}
+
+.btn--outline {
+  background: #fff;
+  color: #5624d0;
+  border: 2px solid #5624d0;
+}

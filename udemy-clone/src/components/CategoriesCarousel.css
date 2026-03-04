@@ -1,0 +1,22 @@
+.carousel__tabs {
+  display: flex;
+  gap: 24px;
+  margin: 36px 0 28px 0;
+}
+
+.carousel__tab {
+  background: #fff;
+  border: 1px solid #d1d7dc;
+  border-radius: 30px;
+  padding: 10px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d3f31;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(86,36,208,.07);
+  transition: background 0.15s;
+}
+
+.carousel__tab:hover {
+  background: #f6f7fb;
+}
